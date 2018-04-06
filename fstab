@@ -1,0 +1,13 @@
+# <file system>					<dir>		<type>		<options>					<d/p>
+# /dev/sda1
+UUID=b5d4b4ba-0dbf-4195-ac9a-b47890593208	/         	ext4      	rw,relatime,discard,data=ordered		0 1
+
+# /dev/sda2
+UUID=5e0804c5-39ab-462f-931d-a6f311c20718	/home     	ext4      	rw,relatime,discard,data=ordered		0 2
+
+# storage
+UUID=6b01e35d-8556-4ef0-bd17-4488562aa5cc	/mnt/storage	ext4		defaults,nofail,x-systemd.device-timeout=1	0 2
+
+# extra
+UUID=59908474-d5ad-4ca4-953f-25abf5aa372c	/mnt/extra	ext4		defaults,nofail,x-system.device-timeout=1	0 2
+
